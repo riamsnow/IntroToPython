@@ -1,0 +1,6 @@
+def fib(n):
+ a,b = 1,1
+ for i in range(n-1):
+  a,b = b,a+b
+ return a
+ print fib(raw_input("Enter a step number from the fibonacci sequence, to get the value." ))
