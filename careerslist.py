@@ -3,4 +3,5 @@ careers = ["engineer", "hacker", "doctor", "chemist"]
 print(careers)
 careers.append("physicist")
 print(careers)
-print(len(careers))
+careers.insert(2,"astronaut")
+print(careers)
