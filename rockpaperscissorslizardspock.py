@@ -3,7 +3,7 @@ t = ["Rock", "Paper", "Scissors", "Lizard", "Spock"]
 computer = t[randint(0,4)]
 player = False
 while player == False:
-    player = raw_input("Pick One:Rock, Paper, Scissors, Lizard, Spock")
+    player = raw_input("Pick One:Rock, Paper, Scissors, Lizard, Spock ")
     if player == computer:
         print("You Tied!")
     elif player == "Rock":
